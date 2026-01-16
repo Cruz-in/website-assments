@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F1 Hub | Home</title>
+  <style>
+    /*  body - Sets the foundation with dark background and light text */
+    body {
+      background-color: #121212; /* Dark Mode base */
+      color: #e0e0e0;            /* Primary text color */
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* header - Top branding area with the red F1 accent border */
+    header {
+      position: sticky;
+      top: 0;
+      width: 100vw;
+      background-color: #1a1a1a;
+      border-bottom: 4px solid #e10600; /* F1 Signature Red */
+      padding: 40px 20px;
+    }
+
+    /* nav - Styles the links that connect your 3 pages */
+    nav {
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+
+    nav ul li {
+      border-right: #ffffff solid 3px;
+      padding: 0px 5px;
+    }
+
+    nav ul li:last-of-type {
+      border-right: 0;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    /* main - Centers content and limits width for professional layout */
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      line-height: 1.8;
+    }
+
+    /* section - Groups related content like text or galleries */
+    section {
+      margin-bottom: 40px;
+    }
+
+    /* h2 - Section headings with a red left-border accent */
+    h2 {
+      border-left: 5px solid #e10600;
+      padding-left: 15px;
+      color: #ffffff;
+    }
+
+    /* styles images to fit nicely within the page */
+    img {
+      border-radius: 5px;
+      margin: 10px;
+      border: 1px solid #333;
+    }
+
+    /* footer - Styles the required identification text */
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+      font-size: 0.9em;
+      border-top: 1px solid #333;
+    }
+    /* the css makes the header logo on the left */
+    #header-logo {
+      position: absolute;
+      margin-right: 60px;
+      border-radius: 0px;
+      margin: 0px;
+      border: 0px;
+      width: 200px;
+      
+    }
+    h1 {
+      display: flex;
+      margin: 0;
+      justify-self: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="images/f1-logo-png-1.png" id="header-logo">
+    <h1>The F1 Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="standings.html">Standings</a></li>
+        <li><a href="newsletter.html">Join the Grid</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to the Paddock</h2>
+      <p>
+        The F1 Hub is your primary destination for <b>elite motor racing</b> updates. Our mission is to provide <i>detailed insights</i> into the world of Formula 1. Whether you are a casual viewer or a <u>die-hard fan</u>, we ensure you never miss a <s>slow</s> <strong>high-speed</strong> moment of the 2024 season!
+      </p>
+      <p>
+        This site features the latest championship standings, vehicle galleries, and exclusive opportunities to join our community through our newsletter.
+      </p>
+    </section>
+
+    <section>
+      <h2>Formula 1, Explained for Rookies</h2>
+      <h3>Youtube credits: "Cleo Abram"</h3>
+      <iframe width="100%" height="450" src="https://www.youtube.com/embed/SSdsncLXLYs" title="Everything You Need To Know About Formula One the, Race, Rules & Details" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h2>The Machinery</h2>
+      <img src="images/RedBull-2024.jpg" alt="Red Bull Racing car" width="270">
+      <img src="images/2025-ferrari-F1.jpg" alt="Scuderia Ferrari car" width="270">
+      <img src="images/2025-redbull-f1.jpg" alt="The iconic chequered flag with the redbull car behind the flag" width="270">
+    </section>
+
+  </main>
+
+  <footer>
+    <p>G9-PM-Hardman | Assessment Page 1</p>
+  </footer>
+
+</body>
+</html>

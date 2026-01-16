@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F1 Hub | 2024 Standings</title>
+  <link>
+  <style>
+    /* TAG: body - Defines the dark mode background and light text for the whole page */
+    body {
+      background-color: #121212; /* Deep charcoal for dark mode */
+      color: #e0e0e0;            /* Soft white for eye comfort */
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      
+    }
+
+    /* TAG: header - The top branding area with the red F1 accent */
+    header {
+      background-color: #1a1a1a;
+      border-bottom: 4px solid #e10600; /* F1 Signature Red */
+      padding: 2rem;
+      position: sticky;
+      top:0;
+    }
+
+    /* nav - Styles the links that connect your 3 pages */
+    nav {
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+
+    nav ul li {
+      border-right: #ffffff solid 3px;
+      padding: 0px 5px;
+    }
+
+    nav ul li:last-of-type {
+      border-right: 0;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    /* CSS Pseudo-class: :hover - Changes link color when mouse is over it */
+    nav a:hover {
+      color: #e10600;
+    }
+
+    /* TAG: main - Limits content width for a professional look [cite: 76] */
+    main {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    /* TAG: table - Container for the driver data  */
+    table {
+      width: 100%;
+      border-collapse: collapse; /* Merges cell borders for a clean grid */
+      margin: 30px 0;
+      background-color: #1f1f1f;
+    }
+
+    /* TAG: th - Header cells with red background and white text */
+    th {
+      background-color: #e10600;
+      color: white;
+      padding: 15px;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    /* TAG: td - Standard table data cells */
+    td {
+      padding: 12px;
+      border-bottom: 1px solid #333;
+    }
+
+    /* TAG: footer - Styles the required identification text [cite: 17, 83] */
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+      border-top: 1px solid #333;
+    }
+    #header-logo {
+      position: absolute;
+      margin-right: 60px;
+      border-radius: 0px;
+      margin: 0px;
+      border: 0px;
+      width: 200px;
+      
+    }
+    h1 {
+      display: flex;
+      margin: 0;
+      justify-self: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="images/f1-logo-png-1.png" id="header-logo">
+    <h1>2024 Championship Standings</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="standings.html">Standings</a></li>
+        <li><a href="newsletter.html">Join the Grid</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>The Final Rankings</h2>
+      <p>
+        The 2024 season was <b>pure adrenaline</b>. While Max Verstappen dominated, McLaren showed <i>immense progress</i> throughout the year. It was <u>never a dull moment</u> for fans, even when results seemed <s>predictable</s> <strong>unbelievable</strong>!
+      </p>
+    </section>
+
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Flag</th>
+            <th>Driver</th>
+            <th>Constructor</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>🇳🇱</td><td>Max Verstappen</td><td>Red Bull Racing</td><td>437</td></tr>
+          <tr><td>2</td><td>🇬🇧</td><td>Lando Norris</td><td>McLaren</td><td>374</td></tr>
+          <tr><td>3</td><td>🇲🇨</td><td>Charles Leclerc</td><td>Ferrari</td><td>356</td></tr>
+          <tr><td>4</td><td>🇦🇺</td><td>Oscar Piastri</td><td>McLaren</td><td>292</td></tr>
+          <tr><td>5</td><td>🇪🇸</td><td>Carlos Sainz</td><td>Ferrari</td><td>290</td></tr>
+          <tr><td>6</td><td>🇬🇧</td><td>George Russell</td><td>Mercedes</td><td>245</td></tr>
+          <tr><td>7</td><td>🇬🇧</td><td>Lewis Hamilton</td><td>Mercedes</td><td>223</td></tr>
+          <tr><td>8</td><td>🇲🇽</td><td>Sergio Pérez</td><td>Red Bull Racing</td><td>152</td></tr>
+          <tr><td>9</td><td>🇪🇸</td><td>Fernando Alonso</td><td>Aston Martin</td><td>70</td></tr>
+          <tr><td>10</td><td>🇫🇷</td><td>Pierre Gasly</td><td>Alpine</td><td>42</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Formula One (F1) Points System Explained</h2>
+        <p>Credits: "F1Education"</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/L2MzaLiqTfc" title="the video will walk through the basics how scoring works including the Drivers Championship and Constructors Championship" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h2>Gallery</h2>
+      <img src="car1.jpg" alt="Red Bull car on track" width="300">
+      <img src="car2.jpg" alt="Ferrari pit crew action" width="300">
+      <img src="flag.jpg" alt="Chequered flag at the finish" width="300">
+    </section>
+
+  </main>
+
+  <footer>
+    <p>G9-PM-Hardman | Assessment Page 2</p>
+  </footer>
+
+</body>
+</html>
